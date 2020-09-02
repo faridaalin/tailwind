@@ -24,7 +24,7 @@ export default function Card() {
           </Button>
         </div>
       </div>
-      <div className="clip flex-auto w-2/4">
+      <div className="clip hidden md:block flex-auto w-2/4">
         <div className="img-container"></div>
       </div>
     </div>
