@@ -16,16 +16,16 @@ export default function Card() {
           aliquip ex ea commodo consequat.
         </p>
         <div>
-          <Button bgColor="bg-gray-900" color="text-gray-200">
+          <Button bgColor="bg-gray-900" color="text-gray-200" hover="bg-gray-800">
             Get Started
           </Button>
-          <Button bgColor="bg-gray-500" ml="ml-5">
+          <Button bgColor="bg-gray-500" ml="ml-5" hover="bg-gray-600">
             Learn More
           </Button>
         </div>
       </div>
-      <div className="clip hidden md:block flex-auto w-2/4">
-        <div className="img-container"></div>
+      <div className="clip hidden md:block flex-auto w-2/4 bg-gray-400">
+        <div className="img-container opacity-75"></div>
       </div>
     </div>
   );
